@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="{{asset('img/' . htmlspecialchars($darren2->icontab)) }}">
+    <link rel="icon" href="{{asset('img/' . $darren2->icontab) }}">
     <title>{{ $darren2->namawebsite }}</title>
     <!-- Simple bar CSS -->
     <link rel="stylesheet" href="{{asset('css/simplebar.css') }}">
